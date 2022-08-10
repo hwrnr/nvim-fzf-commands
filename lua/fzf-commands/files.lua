@@ -49,7 +49,6 @@ local function files(opts)
     for i=2,#choices do
       vim.cmd(vimcmd .. " " .. fn.fnameescape(choices[i]))
     end
-    
   end)()
 end
 
